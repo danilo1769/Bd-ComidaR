@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ComiFa - Comida Fácil</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 🔹 Encabezado -->
+  <header>
+    <h1>🍔 ComiFa</h1>
+    <nav>
+      <ul>
+        <li><a href="#menu">Menú</a></li>
+        <li><a href="#carrito">Carrito</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 🔹 Sección del Menú -->
+  <section id="menu">
+    <h2>Menú del día</h2>
+    <div class="productos">
+      <!-- Los productos se agregarán aquí dinámicamente con JavaScript -->
+    </div>
+  </section>
+
+  <!-- 🔹 Sección del Carrito -->
+  <section id="carrito">
+    <h2>Tu Pedido</h2>
+    <ul id="lista-carrito"></ul>
+    <p id="total">Total: $0</p>
+    <button id="btn-pedir">Confirmar Pedido</button>
+  </section>
+
+  <!-- 🔹 Footer -->
+  <footer id="contacto">
+    <p>© 2025 ComiFa. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
